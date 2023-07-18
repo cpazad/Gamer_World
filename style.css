@@ -12,8 +12,8 @@ html {
   }
 
   :root{
-    --gradient:linear-gradient(to right, #e409d2 , #7F00FF);
-    --primary-color: #e409d2;
+    --gradient:linear-gradient(to right, #ff42a6 , #7F00FF);
+    --primary-color: #ff42a6;
     --secondary-color: #4EC5F7;
     --section-padding: 40px 0px;
   }
@@ -74,7 +74,7 @@ html {
 .gamer-social-links a {
     text-decoration: none;
     color: #fff;
-    font-size: 5rem;
+    font-size: 4rem;
     text-align: center; 
 }
 
@@ -87,7 +87,7 @@ html {
 .policy a {
     text-decoration: none;
     color: #dadada;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: center; 
 }
 
