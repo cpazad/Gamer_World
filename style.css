@@ -122,7 +122,76 @@ main {
 /* Banner Section - GOAT Ends */
 
 /* We are Gamer Section Starts */
+/* We are gamer starts */
+.we-are-gamer {
+    display: flex;
+   justify-content: space-evenly;
+   align-items: center; 
+}
+.gamer-image {
+    width: 100%;
+}
+.gamer-img-con {
+    max-width: 600px;
+}
+.gamer-content {
+    text-align: right;
+    max-width: 500px;
+}
+.gamer-title {
+    font-size: 4rem;
+    font-weight: 800;
+    background: -webkit-linear-gradient(#ef08c5, #7507c4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+}
+.game-des {
+    font-size: 1.5rem;
+    margin: 10px 0px;
+}
+.game-qot {
+    font-size: 2rem;
+}
+
+
 /* We are Gamer Section Ends */
+
+/* Play instantly CSS */
+.play-instantly {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px 0px;
+}
+.play-content {
+    max-width: 500px;
+}
+.play-img-cont {
+    max-width: 610px;
+}
+.big-img {
+    max-width: 450px;
+    height: auto;
+}
+.small-img {
+    width: 150px;
+    position: relative;
+    bottom: -45px;
+    right: -75px;
+}
+
+.play-title {
+    font-size: 4rem;
+}
+.color-text {
+    color: #ef08c5;
+}
+.play-des {
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+}
+/* Play instantly CSS Ends*/
 
 /*  Funny Video Section Starts */
 .funny-video {
@@ -381,7 +450,7 @@ font-weight: 300;
     .nav-container {
         flex-direction: column;
         padding: 10px 0px;
-        justify-content: center;
+        justify-content:space-between;
     }
 
     .site-id {
@@ -418,6 +487,17 @@ font-weight: 300;
         margin: 10px;
         text-align: center;
     }
+/* We are gamer starts */
+.we-are-gamer {
+    display: flex;
+    flex-direction: column-reverse;
+  
+}
+.gamer-content {
+    padding: 10px;
+}
+
+/* We are gamer ends */
 
 
    /* Career */
@@ -441,7 +521,20 @@ font-weight: 300;
     height: 100vh;
     text-align: left;
  }
-   
+   /*  play Instant css for tablet */
+.play-instantly {
+    flex-direction: column;
+}
+.play-content{
+    margin-bottom: 25px;
+    padding: 35px;
+}
+.big-img {
+    max-width: 270px;
+}
+.small-img {
+    max-width: 100px;
+}
    
     /* Footer Area */
     .page-links{
@@ -545,6 +638,21 @@ font-weight: 300;
         width: 50rem;
         height: 70vh;
     }
+/*  we are gamer */
+.we-are-gamer {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.gamer-content {
+    padding: 10px;
+}
 
+/*  play Instant css for tablet */
+.play-instantly {
+    flex-direction: column;
+}
+.play-content{
+    margin-bottom: 25px;
+}
 
     }
