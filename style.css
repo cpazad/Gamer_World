@@ -19,7 +19,106 @@ html {
   }
 
   /* Common CSS Ends */
+
+/* Header CSS starts */
+.header {
+    width: 100%;
+   
+}
+.nav-container {
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    height: 10rem;
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3rem;
+}
+.title-initial-2 {
+    color: #000;
+} 
+.navbar a {
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.nav-btn {
+    padding: 10px 15px;
+    
+}
+.my-youtube {
+    margin: 0px 5px;
+}
+/* Header CSS Ends */
+main {
+    width: 100%;
+}
 /* Banner Section - GOAT Start */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-image {
+    width: 100%;
+}
+.banner-image-con {
+    width: 60rem;
+    margin-right: 100px;
+}
+.banner-title-1 {
+    font-size: 3rem;
+    font-weight: 400;
+}
+.banner-title-2 {
+    font-size: 12rem;
+    font-weight: 800;
+    background: -webkit-linear-gradient(#ef08c5, #7507c4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-content ul li {
+    list-style: none;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    padding-left: 25px;
+}
+.banner-content {
+    background-image: url(images/Group14.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 10rem;
+}
+.btn-box {
+    margin: 3rem 0;
+}
+.signup-btn {
+    padding: 10px 25px;
+    border: 1px solid #ff42a6;
+    background-color: #ff42a6;
+    color: #fff;
+    border-radius: 25px;
+    margin-right: 15px;
+
+}
+.go-btn {
+    padding: 10px 25px;
+    border: 1px solid #4EC5F7;
+    background-color: #4EC5F7;
+    color: #fff;
+    border-radius: 25px;
+    margin-right: 15px;
+
+}
+
+
+
+
 /* Banner Section - GOAT Ends */
 
 /* We are Gamer Section Starts */
@@ -47,7 +146,9 @@ html {
     font-size: 4rem;
 }
 .color-part {
-    color: #ff42a6;
+    background: -webkit-linear-gradient(#ef08c5, #7507c4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .funny-des {
     font-size: 1.5rem;
@@ -273,7 +374,52 @@ font-weight: 300;
 
 /* For Mobile Device */
 @media only screen and (max-width: 600px) {
+       /* Header Area  */
+       .header {
+        height: 12rem;
+    }
+    .nav-container {
+        flex-direction: column;
+        padding: 10px 0px;
+        justify-content: center;
+    }
+
+    .site-id {
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .navbar{
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    /*  Funny games */
+    .box-container{
+        flex-direction: column;
+    }
+
+     /*  Funny games */
+     .box-container{
+        flex-direction: column;
+    }
    
+    /* GOAT */
+    .banner {
+        flex-direction: column;
+    }
+    .banner-content {
+        padding: 1rem 8rem;
+    }
+    .banner-title-2{
+        font-size: 8rem;
+    }
+
+    .section-header {
+        font-size: 3rem;
+        margin: 10px;
+        text-align: center;
+    }
+
+
    /* Career */
    .career {
     display: flex;
@@ -284,6 +430,10 @@ font-weight: 300;
     margin-left: 100px;
     width: 30rem;
     height: 90vh;
+}
+.banner-image-con {
+    margin-right: 0px;
+    width: 35rem;
 }
    
    /* Game type */
@@ -325,6 +475,37 @@ font-weight: 300;
   /*  Resposive codes for Tablets */
 
   @media only screen and (min-width: 600px) and (max-width:992px) {
+    
+    /* Header Area  */
+    .header {
+        height: 12rem;
+    }
+    .nav-container {
+        flex-direction: column;
+        padding: 10px 0px;
+        justify-content: center;
+    }
+
+    .site-id {
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .navbar{
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+    .banner-image-con {
+        margin-right: 0px;
+    }
+    /*  Funny games */
+    .box-container{
+        flex-direction: column;
+    }
+    
     /* Footer Area */
      .page-links{
          grid-template-columns: repeat(3,1fr);
