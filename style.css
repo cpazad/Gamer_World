@@ -19,6 +19,78 @@ html {
   }
 
   /* Common CSS Ends */
+/* Banner Section - GOAT Start */
+/* Banner Section - GOAT Ends */
+
+/* We are Gamer Section Starts */
+/* We are Gamer Section Ends */
+
+/*  Funny Video Section Starts */
+.funny-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: var(--section-padding);
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.box-img {
+    width: 100%;
+}
+
+.section-header {
+    font-size: 4rem;
+}
+.color-part {
+    color: #ff42a6;
+}
+.funny-des {
+    font-size: 1.5rem;
+    padding: 25px 0px;
+}
+.box-1 {
+    width: 25rem;
+}
+.box-2 {
+    position: relative;
+}
+.zoom-video {
+ text-align: center;
+ font-size: 2rem;
+ position: absolute;
+ top: 40%;
+ left: 30%;
+ transform: translate(-26%, -38%);
+ color: #fff;
+ background-color: #0b022377;
+ padding: 80px 80px;
+ display: none;
+  
+}
+.box-2:hover .zoom-video {
+    display: block;
+    cursor: pointer;
+  
+}
+
+.zoom-video i {
+    font-size: 4rem;
+    margin-bottom: 1rem;   
+   }
+   .video-des {
+    font-size: 1.2rem;
+    text-align: left;
+    padding: 1rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+   }
+
+/*  Funny Video Section Ends */
 
 /* Career Section start */
 .career {
@@ -28,6 +100,9 @@ html {
     background-color: var(--primary-color);
     color: #fff;
     height: 75vh;
+}
+.cc-title {
+    font-size: 3rem;
 }
 .career-img-container {
     width: 100%;
@@ -96,7 +171,7 @@ font-weight: 300;
     border: 2px solid rgb(255, 255, 255);
 }
 .games:hover{
-    border: 2px solid rgb(105, 32, 32);
+    border: 2px solid rgb(234, 22, 181);
     background-color: aliceblue;
     box-shadow: .2rem .2rem .2rem #848484;
     transform: scale(2px);
