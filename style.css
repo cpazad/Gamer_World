@@ -66,9 +66,9 @@ html {
 }
 
 .gamer-social-links {
-    width: 30%;
+    width: 40%;
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(6,1fr);
     justify-content: center;
 }
 .gamer-social-links a {
@@ -97,3 +97,63 @@ html {
 
 
 /* Footer Section CSS Ends */
+
+/* Responsive Coding */
+
+/* For Mobile Device */
+@media only screen and (max-width: 600px) {
+   /* Footer Area */
+    .page-links{
+        grid-template-columns: repeat(3,1fr);
+        width: 70%;
+    }
+    .page-links a{
+        margin: 1.5rem 0px; 
+    }
+    .gamer-social-links{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .gamer-social-links a {
+        margin:1rem 0;
+    }
+    .policy {
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .policy a {
+        margin:1rem ;
+        
+    }
+
+        /* Footer Area Ends */
+
+
+  }
+
+  /*  Resposive codes for Tablets */
+
+  @media only screen and (min-width: 600px) and (max-width:992px) {
+    /* Footer Area */
+     .page-links{
+         grid-template-columns: repeat(3,1fr);
+     }
+     .page-links a{
+         margin: 1.5rem 0px; 
+     }
+     .gamer-social-links{
+         grid-template-columns: repeat(3,1fr);
+     }
+     .gamer-social-links a {
+         margin:1rem 0;
+     }
+     .policy {
+         grid-template-columns: repeat(2,1fr);
+         width: 45%;
+         margin-bottom: 2rem;
+     }
+     .policy a {
+         margin:1rem ;
+         
+     }
+    }
